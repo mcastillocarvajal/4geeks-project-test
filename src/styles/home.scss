@@ -3,22 +3,35 @@ body{
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    filter: grayscale(50%);
+    background-attachment: fixed;
 }
 #logo {
     font-family: 'Jura', sans-serif;
-    font-size: 300%;
+    font-size: 200%;
     color: white;
 }
 #jumbotron{
-    max-width: 35rem;
+    max-width: 38rem;
+    height: 22rem;
     background: rgba(255,255,255,0.4);
-    margin: 4rem;
+    margin: 3rem;
 
 }
 #footer{
     background-color: white;
-    height: 20rem;
+    height: 100rem;
     width: 100%;
     margin-top: 10rem;
+}
+#beneficios{
+    background-color: white;
+    height: 35rem;
+    width: 100%;
+}
+#img-container{
+    height: 25rem;
+    background-image: url('../img/bg3.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }

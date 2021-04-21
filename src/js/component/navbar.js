@@ -6,7 +6,7 @@ export const Navbar = () => {
 	return (
 		<div className="container-fluid">
 			<nav className="navbar border-bottom border-3">
-				<Link className="navbar-brand ml-5" id="logo" to="/">
+				<Link className="navbar-brand ml-4" id="logo" to="/">
 					YoNado
 				</Link>
 				<div className="d-flex justify-content-end">
